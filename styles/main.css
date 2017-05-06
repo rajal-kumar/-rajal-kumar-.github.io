@@ -1,0 +1,16 @@
+body {
+  background: #999;
+  font-family: arial;
+
+
+}
+
+h1, h4 {
+  color: #000;
+  text-align: center;
+}
+
+
+p {
+    padding: 50px 30px 50px 80px;
+}
