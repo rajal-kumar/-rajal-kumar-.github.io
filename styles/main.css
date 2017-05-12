@@ -1,16 +1,42 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
 body {
   background: #999;
   font-family: arial;
 
-
 }
 
-h1, h4 {
+h1, h2 {
   color: #000;
   text-align: center;
 }
 
 
 p {
-    padding: 50px 30px 50px 80px;
+    padding: 5px 30px 50px 80px;
+}
+
+
+ul {
+   padding: 0px 30px 50px 100px;
+}
+
+h4 {
+    padding: 50px 30px 5px 80px;
+}
+
+a {
+  text-align: center;
+}
+
+
+
+#image_1 {
+  margin: 150px;
 }
