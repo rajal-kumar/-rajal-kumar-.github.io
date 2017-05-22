@@ -131,7 +131,7 @@ h1 {
   	color: white;
 }
 
-#ref_image {
+#ref_image, #shiva {
       width: 250px;
       height: 150px;
 }
@@ -183,7 +183,7 @@ h1 {
   margin: 30px;
 }
 
-.wireframePic {
+.wireframePic, #mobile_pic, .table {
   width: 300px;
   padding: 1rem;
 }
@@ -204,6 +204,8 @@ p {
     text-align: center;
     color: white;
 }
+
+/*Footer content*/
 
 .footer  {
     padding: 0.1em;
