@@ -5,6 +5,7 @@
 body {
   	margin: 0;
   	height: 100%;
+    width: 100%;
     background-color: black;
 
 }
@@ -70,6 +71,7 @@ body {
   	border: 2px solid black;
 }
 
+
 /*MAIN CONTENT*/
 
 .section {
@@ -106,6 +108,12 @@ body {
     background-position: center;
 }
 
+#theme {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .Box {
   	margin: 150px auto;
   	width: 100%;
@@ -121,6 +129,71 @@ h1 {
   	text-shadow: 1px 1px 3px black;
   	text-align: center;
   	color: white;
+}
+
+#ref_image {
+      width: 250px;
+      height: 150px;
+}
+
+#t3_p {
+      padding: 0px 15px 10px 10px;
+      font-family: Arial;
+      text-shadow: 1px 1px 3px black;
+      text-align: left;
+      color: black;
+      font-size: 1.75em;
+}
+
+#heading {
+      padding: 0px 15px 10px 10px;
+      font-size: 3em;
+      font-family: Arial;
+      text-shadow: 1px 1px 3px black;
+      text-align: center;
+      color: black;
+}
+
+#ref_head {
+    padding: 0px 15px 10px 10px;
+    font-family: Arial;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    color: black;
+}
+
+#ref_q {
+    padding: 0px 15px 10px 10px;
+    font-family: Arial;
+    color: black;
+}
+
+#ref_t3 {
+  adding: 0px 15px 10px 10px;
+  font-family: Arial;
+  color: black;
+  text-align: left;
+}
+
+#response_li {
+  adding: 0px 15px 10px 10px;
+  font-family: Arial;
+  color: black;
+  text-align: left;
+  margin: 30px;
+}
+
+.wireframePic {
+  width: 300px;
+  padding: 1rem;
+}
+
+.wirehead {
+  font-family: Arial;
+}
+.table {
+  font-family: Arial;
+  align-items: center;
 }
 
 p {
