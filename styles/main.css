@@ -131,7 +131,7 @@ h1 {
   	color: white;
 }
 
-#ref_image, #shiva {
+#ref_image, #shiva, #grid {
       width: 250px;
       height: 150px;
 }
@@ -203,6 +203,15 @@ p {
     text-shadow: 1px 1px 3px black;
     text-align: center;
     color: white;
+}
+
+.content-1 {
+  padding: 0px 15px 10px 110px;
+  font-family: Arial;
+  text-shadow: 1px 1px 3px black;
+  text-align: left;
+  color: black;
+  font-size: 1.3em;
 }
 
 /*Footer content*/
