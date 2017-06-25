@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RK's Blogs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+</head>
+<body>
+  <div class="background_blog">
+    <div class="header">
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <div class="logo">Rajal Kumar</div>
+          <ul class="nav_box">
+            <li class="nav_btn">
+                <a class="header_link" href="../index.html">Home</a>
+            </li>
+
+            <li class="nav_btn">
+                <a class="header_link" href="blog-page.html">Blog</a>
+            </li>
+
+            <li class="nav_btn">
+                <a class="header_link" href="">About</a>
+            </li>
+
+            <li class="nav_btn">
+                <a class="header_link" href="">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  <div class="Container">
+    <div class="section" id="theme">
+      <div class="Box">
+        <div class="Header">
+          <h1 id="heading"> JS scope Blog </h1><br><br>
+            <h5 id="t3_p"> What 'scope' is, and how it works in JavaScript? </h5>
+              <p id="ref_t3">
+                  • When talking about scope in JavaScript, we consider a scope to be a set of variables, objects, and functions that you can access as well. There are two ways to look at scope, they can either be local or global variables/scope.<br>
+
+              </p>
+          <hr>
+            <h5 id="t3_p"> Local JavaScript Varibles </h5>
+              <p id="ref_t3">
+                  • When there is a variable decleared within a JavaScript function, this is then addressed as the <b>LOCAL</b> to the function. Then from there Local variable we have a <b>Local scope</b>, the Local scope is only accessible within the function.
+                    <br>
+                    <br>
+                  • Here is an example of a Local Scope. <i>* Example from <a href="https://www.w3schools.com/js/js_scope.asp">w3schools.</a></i>
+                    <br>
+                      <mark>// code here can not use carName<br>
+                          <br>
+                          function myFunction() {<br>
+                              var carName = "Volvo";<br>
+                              <br>
+                              // code here can use carName<br>
+                              <br>
+                          }</mark>
+                     <br>
+                     <br>
+                    • The Local vaiables are only active within the function it is presented in. To sum it up a Local variable will be made when the function will be started up, and then delted when the function ia finished.
+              </p>
+            <hr>
+              <h5 id="t3_p"> Global JavaScript Variables </h5>
+                <p id="ref_t3">
+                    • When there is a variable decleared outside of a function, it is known as <b>GLOBAL</b>. Just like the Local variable a Global variable has a <b>Global Scope</b>, all the scripts and functions will be able to access the global scope as long as its on a web page
+                    <br>
+                    <br>
+                  • Here is an example of a Global Scope. <i>* Example from <a href="https://www.w3schools.com/js/js_scope.asp">w3schools.</a></i>
+                    <br>
+                    <mark>var carName = " Volvo";<br>
+                        <br>
+                        // code here can use carName<br>
+                        function myFunction() {<br>
+                            <br>
+                            // code here can use carName<br>
+                            <br>
+                        }</mark>
+                </p>
+          <hr>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="icons">
+    <a href="https://www.facebook.com/rajal.kumar.12?lst=100002408169619%3A100002408169619%3A1495348680">
+      <img src="../images/facebook.jpg" alt="fb image" id="image_1"/>
+    </a>
+    <a href="https://www.instagram.com/rajalkumar13/">
+      <img src="../images/instagram.jpg" alt="insta image" id="image_2"/>
+    </a>
+    <a href="https://github.com/rajal-kumar">
+      <img src="../images/github.jpg" alt="git image" id="image_3"/>
+    </a>
+  </div>
+  Rights Reserved, Rajal Kumar © 2017
+</div>
+</body>
+
+</html>
